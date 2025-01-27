@@ -1084,23 +1084,71 @@ footer
 --------------------------------------------- 
 */
 footer {
+  background-color: grey; /* Màu nền tùy chỉnh */
+  padding: 0px 0;
+  font-family: Arial, sans-serif;
   
-  text-align: center;
-  padding: 30px 0px;
 }
 
-footer p {
-  color: #232d39;
-  font-size: 13px;
+footer .container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-footer p a {
-  cursor: pointer;
-  color: #ed563b;
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Căn nội dung về bên trái */
+  align-items: center; /* Căn các mục con lên đầu hàng */
+  text-align: left; /* Căn lề trái cho nội dung văn bản */
+}
+footer .col {
+  padding-left:30px;
+  text-align: left; /* Căn lề trái cho nội dung bên trong từng cột */
 }
 
-footer p a:hover {
-  color: #ed563b;
+footer img {
+  margin-top: 0px;
+  margin-bottom: 0px; /* Khoảng cách dưới */
+  max-width: 100%; /* Đảm bảo không vượt quá chiều rộng của container */
+  height: auto; /* Tự động giữ tỷ lệ khung hình */
+  width: 150px; /* Tăng kích thước của ảnh (thay đổi giá trị tùy thích) */
+}
+
+
+footer .footer-content {
+  display: flex;
+  flex-wrap: nowrap; /* Không cho xuống dòng */
+  justify-content: space-between; /* Giãn đều */
+}
+
+footer .col i {
+  display: inline-block; /* Giữ icon nằm ngang với chữ */
+  vertical-align: middle; /* Căn giữa icon với dòng chữ theo chiều dọc */
+  margin-right: 5px; /* Tạo khoảng cách giữa icon và chữ */
+  font-size: 18px; /* Điều chỉnh kích thước icon */
+  color: #333; /* Màu icon */
+}
+
+footer .col p {
+  display: inline; /* Hiển thị chữ trên cùng dòng với icon */
+  font-size: 14px; /* Kích thước chữ */ 
+  color: #333; /* Màu chữ */
+  margin: 0; /* Loại bỏ khoảng cách mặc định */
+}
+
+footer .col a {
+  text-decoration: none; /* Loại bỏ gạch chân liên kết */
+  color: #333;
+  
+}
+footer .col .incol {
+  margin-top: 3px; /* Tăng khoảng cách dưới mỗi .incol */
+}
+
+footer .col a:hover {
+  color: #007bff; /* Màu khi hover */
 }
 
 
