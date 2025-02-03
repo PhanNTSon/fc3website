@@ -728,7 +728,7 @@ subscribe
 
 #call-to-action {
   padding: 320px 0px;
-  background: linear-gradient(270deg,#004aad, #9463d6);;
+  background: linear-gradient(270deg, #004aad, #3c1e66);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1351,6 +1351,13 @@ responsive
 Addition features and id stuffs
 --------------------------------------------- 
 */
-#index-section{
-  display: flex;
+#index-section-img img{
+  margin: 0 50px 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tabs-content article{
+  align-content: center;
 }
