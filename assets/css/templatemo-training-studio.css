@@ -115,7 +115,7 @@ global styles
 */
 html,
 body {
-  background: ;
+  /* background: ; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -752,7 +752,7 @@ subscribe
 }
 
 .cta-content .button a {
-  color: red; /* Đổi màu chữ sang đỏ */
+  color: white; /* Đổi màu chữ sang đỏ */
   text-decoration: none; /* Loại bỏ gạch chân nếu có */
 }
 
@@ -1336,4 +1336,13 @@ responsive
   .feature-item .right-content a.text-button {
     margin-left: 130px;
   }
+}
+
+/* 
+---------------------------------------------
+Addition features and id stuffs
+--------------------------------------------- 
+*/
+#index-section{
+  display: flex;
 }
