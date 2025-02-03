@@ -44,8 +44,29 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.eve{
+  margin-top: 130px;
+}
+
+.events{
+  margin-top: 25px;
+}
+
+.eve-img img{
+  border-radius: 12%;
+}
+
+.eve-text,.empty,.eve-text p{
+  color: #ddd;
+}
+
+
 .footer-content{
   padding-left: 50px;
+}
+
+.empty{
+  align-self: center;
 }
 
 html{
@@ -123,7 +144,6 @@ global styles
 */
 html,
 body {
-  /* background: ; */
   font-family: 'Poppins', sans-serif;
 }
 
