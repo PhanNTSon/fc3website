@@ -44,8 +44,29 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.tabs-content #tabs-0 h4, #tabs-1 h4,#tabs-2 h4,#tabs-3 h4,#tabs-4 h4,#tabs-5 h4{
+  color: #ddd;
+}
+
+.events{
+  margin-top: 25px;
+}
+
+.eve-img img{
+  border-radius: 12%;
+}
+
+.eve-text,.empty,.eve-text p{
+  color: #ddd;
+}
+
+
 .footer-content{
   padding-left: 50px;
+}
+
+.empty{
+  align-self: center;
 }
 
 html{
@@ -123,7 +144,6 @@ global styles
 */
 html,
 body {
-  /* background: ; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -156,7 +176,7 @@ body {
 .section-heading {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 .section-heading h2 {
@@ -648,7 +668,7 @@ banner
 
 .main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
@@ -658,7 +678,7 @@ banner
 .main-banner .caption h2 {
   margin-top: 30px;
   margin-bottom: 25px;
-  font-size: 84px;
+  font-size: 68px;
   text-transform: uppercase;
   font-weight: 800;
   color: #fff;
@@ -684,7 +704,8 @@ features
 */
 
 #features {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(270deg, #004aad, #3c1e66);
 }
 
 .feature-item {
@@ -727,7 +748,7 @@ subscribe
 */
 
 #call-to-action {
-  padding: 320px 0px;
+  padding: 220px 0px;
   background: linear-gradient(270deg, #004aad, #3c1e66);
   background-position: center center;
   background-repeat: no-repeat;
@@ -735,6 +756,11 @@ subscribe
   text-align: center;
 }
 
+#our-classes{
+  background: linear-gradient(270deg, #004aad, #3c1e66);
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
 .cta-content h2 {
   font-size: 36px;
   text-transform: uppercase;
@@ -770,18 +796,16 @@ Our Classes
 --------------------------------------------
 */
 
-#our-classes {
-  margin-bottom: 140px;
-}
 
 #tabs ul {
+  gap: 0px;
   margin: 0;
   padding: 0;
 }
 #tabs ul li {
   margin-bottom: 30px;
   display: inline-block;
-  width: 100%;
+  width: 90%;
 }
 #tabs ul li:last-child {
   margin-bottom: 0px;
@@ -1191,8 +1215,8 @@ footer .incol {
   }
 }
 
-footer .col-md-4:nth-child(3),
-footer .col-md-4:nth-child(4) {
+footer .col:nth-child(3),
+footer .col:nth-child(4) {
   margin-top: 10px; /* Điều chỉnh giá trị này để đạt độ thấp mong muốn */
 }
 
@@ -1316,7 +1340,7 @@ responsive
     font-size: 64px;
   }
   #features {
-    margin-bottom: 110px;
+    padding-bottom: 110px;
   }
   #features .feature-item {
     margin-bottom: 30px;

@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <!-- Preloader -->
     <div id="js-preloader" class="js-preloader">
         <div class="preloader-inner">
@@ -40,9 +41,9 @@
 
                         <!-- Menu -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="index.html">Home</a></li>
                             <li class="scroll-to-section"><a href="about.html">About us</a></li>
-                            <li class="scroll-to-section"><a href="events.html">Events</a></li>
+                            <li class="scroll-to-section"><a href="events.html" class="active">Events</a></li>
                             <li class="scroll-to-section"><a href="join.html">Join us</a></li>
                     </nav>
                 </div>
@@ -50,45 +51,44 @@
         </div>
     </header>
 
-    <!-- Main Banner -->
-    <div class="main-banner" id="top">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="section-heading">
-                </div>
-            </div>
-        </div>
-        <video autoplay muted loop id="bg-video">
-            <source src="assets/images/earth.mp4" type="video/mp4" />
-        </video>
-
-        <div class="video-overlay header-text">
-            <div class="caption">
-                <h2>FPTU Cloud Computing Club</h2>
-                <h6><em>Start Your Cloud Journey!</em></h6>
-            </div>
-        </div>
-    </div>
-
-    <!-- Intro -> sửa lại phần này thành phần giới thiệu qua, nút more cho ra góc dưới bên phải-->
-    <section class="section" id="call-to-action">
-        <div class="container">
+    <!-- Events -->
+    <section class="section" id="features">
+        <div class="container eve">
             <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="cta-content row" >
-                        <div class="col-lg-6" id="index-section-img">
-                            <img src="assets/images/cloud-img-temp.png" alt="temp">
-                        </div>
-                        <div class="col-lg-6">
-                            <h2>Start Your <em>Cloud Journey</em> at FC3!!</h2>
-                            <p>Tham gia FC3 giúp bạn có cơ hội tham gia các buổi thảo luận về ứng dụng của điện toán đám
-                                mây. Ngoài ra còn giúp phát triển các kỹ năng mêm phục vụ cho công việc tương lai.</p>
-                            <div class="button scroll-to-section">
-                                <a href="about.html">More >>></a>
-                            </div>
-                        </div>
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+
                     </div>
                 </div>
+            </div>
+            <div id="ourserv">
+                <article class="row events">
+                    <div class="col-lg-3 offset-lg-1 eve-img">
+                        <img src="assets/images/tuyen thanh vien (1).png" alt="Logo" height="150px">
+                    </div>
+                    <div class="col-lg-8 eve-text">
+                        <h3>Recruitment Gen 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra
+                            gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet.</p>
+                        <br><br><a href="fullwidth.html" class="rm">Read More</a>
+                    </div>
+                </article>
+                <article class="row events">
+                    <div class="col-lg-3 offset-lg-1 eve-img">
+                        <img src="assets/images/bacham.png" alt="Logo" width="179px">
+                    </div>
+                    <div class="col-lg-8 empty">
+                        <h3>Coming soon</h3>
+                    </div>
+                </article>
+                <article class="row events">
+                    <div class="col-lg-3 offset-lg-1 eve-img">
+                        <img src="assets/images/bacham.png" alt="Logo"  width="179px">
+                    </div>
+                    <div class="col-lg-8 empty">
+                        <h3>Coming soon</h3>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
@@ -132,7 +132,6 @@
         </div>
     </footer>
 
-
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -150,7 +149,6 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
 </body>
 
 </html>
