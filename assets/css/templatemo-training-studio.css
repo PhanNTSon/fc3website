@@ -840,10 +840,25 @@ Our Classes
 #tabs .main-rounded-button a:hover {
   background-color: #f9735b;
 }
-#tabs ul li a img {
-  max-width: 100%;
-  margin-right: 20px;
+
+.image-thumb {
+  text-align: center;
+  width: 35%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Căn giữa ảnh */
 }
+#tabs h4 {
+  color: white;
+}
+/* .trainer-item .image-thumb {
+  margin-bottom: 0; 
+}
+
+.trainer-item .down-content h4:first-of-type {
+  margin-top: 10px;
+} */
+
 #tabs ul .ui-tabs-active span {
   background: #faf5b2;
   border: #faf5b2;
@@ -855,12 +870,6 @@ Our Classes
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
-}
-.tabs-content {
-  margin-left: 30px;
-  text-align: left;
-  display: inline-block;
-  transition: all 0.3s;
 }
 .tabs-content img {
   max-width: 100%;
@@ -880,6 +889,51 @@ Our Classes
   color: #7a7a7a;
   margin-bottom: 28px;
 }
+#tabs-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+#tabs-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+#tabs-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+#tabs-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+#tabs-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  width: 100%; 
+}
+
+#tabs-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+
 
 
 /* 
