@@ -632,7 +632,7 @@ banner
 */
 
 .main-banner {
-  position: relative;
+  position: static;
 }
 
 #bg-video {
