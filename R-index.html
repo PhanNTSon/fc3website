@@ -11,78 +11,66 @@
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="R-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="R-assets/css/custome-style.css">
 </head>
 
 <body>
     <!-- Header -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <header class="header"> <!-- Header start from here -->
-                    <div>
-                        <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="FC3 Logo"></a>
+            <!-- Header start from here -->
+            <header class="Global-header">
+                <div class="col-md-3" id="logo">
+                    <a href="R-index.html" class="logo"><img src="assets/images/logo.png" alt="FC3 Logo"></a>
+                </div>
+                <div class="col-md-9" id="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="join.html">Join</a></li>
+                        </ul>
+                    </nav>
 
-                    </div>
-                    <div>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html" class="active">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="events.html">Events</a></li>
-                                <li><a href="join.html">Join</a></li>
-                            </ul>
-                        </nav>
-
-                    </div>
-
-                </header>
-            </div>
+                </div>s
+            </header>
         </div>
     </div>
 
 
     <!-- Banner -->
-    <!-- <div class="Index-banner">
-        <video autoplay muted loop>
-            <source src="assets/images/earth.mp4" type="video/mp4">
-        </video>
-        <div class="video-overlay">
-            <h2>FPTU Cloud Computing Club</h2>
-            <h6>Start Your Cloud Journey!</h6>
-        </div>
-    </div> -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="Index-banner"> <!-- Banner start from here -->
-                    <video>
-
-                    </video>
-                    <div id="video-banner">
-
-                    </div>
+            <!-- Banner start from here -->
+            <div class="Index-banner">
+                <video autoplay muted loop class="col-md-12" id="Index-banner-video">
+                    <source src="assets/images/earth.mp4" type="video/mp4">
+                </video>
+                <div class="col-md-12" id="Index-banner-context">
+                    <h2>FPTU Cloud Computing Club</h2>
+                    <h6>Start Your Cloud Journey!</h6>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Section -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <section class="section" id="about"> <!-- Section start from here -->
+            <!-- Section start from here -->
+            <section class="Global-section col-md-12" id="index-about">
+                <div class="col-md-6" id="index-about-img">
                     <img src="assets/images/cloud-img-temp.png" alt="Cloud Image">
-                    <div class="content">
-                        <h2>Start Your <em>Cloud Journey</em> at FC3!</h2>
-                        <p>Tham gia FC3 giúp bạn có cơ hội tham gia các buổi thảo luận về ứng dụng của điện toán đám
-                            mây. Ngoài ra
-                            còn giúp phát triển các kỹ năng mềm phục vụ cho công việc tương lai.</p>
-                        <div class="button">
-                            <a href="about.html">More >>></a>
-                        </div>
-                    </div>
-                </section>
-            </div>
+                </div>
+                <div class="col-md-6" id="index-about-content">
+                    <h2>Start Your <em>Cloud Journey</em> at FC3!</h2>
+                    <p>Tham gia FC3 giúp bạn có cơ hội tham gia các buổi thảo luận về ứng dụng của điện toán đám
+                        mây. Ngoài ra
+                        còn giúp phát triển các kỹ năng mềm phục vụ cho công việc tương lai.</p>
+                    <a href="about.html">More >>></a>
+                </div>
+            </section>
         </div>
     </div>
 
@@ -90,12 +78,25 @@
     <!-- Footer -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <footer class="footer"> <!-- Footer start from here -->
-                    <p>&copy; 2025 FPTU Cloud Computing Club - FC3. All Rights Reserved. | <a
-                            href="mailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a></p>
-                </footer>
-            </div>
+            <!-- Footer start from here -->
+            <footer class="Global-footer">
+                <div class="col-md-3" id="logo">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </div>
+                <div class="col-md-3" id="info-location">
+                    <p><a href="https://maps.app.goo.gl/bVTK4FbdA2dDwVFY9" target="_blank">Trường Đại học FPT Hà Nội,
+                            Khu Công Nghệ Cao Hòa Lạc, KM 29 Đại lộ Thăng Long, Hà Nội</a></p>
+                </div>
+                <div class="col-md-3" id="info-facebook-gmail">
+                    <p><a href="https://www.facebook.com/fc3.fpt" target="_blank">Fanpage: FPTU Cloud Computing Club
+                            - FC3</a></p>
+                    <p><a href="mailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a></p>
+                </div>
+                <div class="col-md-3" id="info-headmaster-phone">
+                    <p>Chủ nhiệm: Trần Trí Dũng</p>
+                    <p>Số điện thoại: 0363894825</p>
+                </div>
+            </footer>
         </div>
     </div>
 

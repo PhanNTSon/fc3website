@@ -1,0 +1,324 @@
+/*
+==================================================================
+Reset
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.tabs-content #tabs-0 h4,
+#tabs-1 h4,
+#tabs-2 h4,
+#tabs-3 h4,
+#tabs-4 h4,
+#tabs-5 h4 {
+  color: #ddd;
+}
+
+.events {
+  margin-top: 25px;
+}
+
+.eve-img img {
+  border-radius: 12%;
+}
+
+.eve-text,
+.empty,
+.eve-text p {
+  color: #ddd;
+}
+
+
+.footer-content {
+  padding-left: 50px;
+}
+
+.empty {
+  align-self: center;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+/*
+==================================================================
+Header
+*/
+.Global-header {
+  height: 20vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  height: 100px;
+  background: linear-gradient(to bottom, #004aad, #9463d6);
+}
+
+#logo {
+  height: 100%;
+}
+
+#logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.Global-header #nav {
+  height: 100%;
+}
+
+.Global-header #nav nav {
+  height: 100%;
+}
+
+.Global-header #nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Global-header #nav ul li a {
+  color: white;
+}
+
+/*
+==================================================================
+Banner
+<R-index.html>
+*/
+.Index-banner {
+  background-color: gray;
+  position: relative;
+  height: 100vh;
+}
+
+.Index-banner #Index-banner-video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Index-banner #Index-banner-context {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.126);
+  color: white;
+}
+
+/*
+==================================================================
+Section
+*/
+.Global-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  background-color: white;
+  height: 50vh;
+  width: 100%;
+}
+
+#index-about {
+  background: linear-gradient(270deg, #004aad, #3c1e66);
+}
+
+#index-about-img {
+  height: 100%;
+}
+
+#index-about-img img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+#index-about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#index-about-content p {
+  color: white;
+}
+
+
+
+
+/*
+==================================================================
+Footer
+*/
+.Global-footer {
+  height: 20vh;
+  background: linear-gradient(to top, #004aad, #9463d6);
+}
+
+.Global-footer div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Global-footer div p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
+.Global-footer div p a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+}
