@@ -256,6 +256,8 @@ Banner
 /*
 ==================================================================
 Section
+=====================
+R-index.html
 */
 .Global-section {
   padding-top: 15px;
@@ -293,8 +295,54 @@ Section
   color: white;
 }
 
+/*R-about.html ======================*/
 
+#about-department {
+  padding-top: 20vh;
+  height: 150vh;
+  display: block;
+  background: linear-gradient(270deg, #004aad, #3c1e66);
+}
 
+#about-department #department-list ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-department #department-list ul li {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  width: 25vh;
+  text-align: center;
+  cursor: pointer;
+}
+
+#department-tabs-detail article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  padding: 5vh;
+  display: none;
+}
+
+#department-tabs-detail article h4{
+  text-align: left;
+  color: white;
+}
+
+#department-tabs-detail .tabs-img{
+  height: 90%;
+}
+
+#department-tabs-detail .tabs-img img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
 
 /*
 ==================================================================
@@ -312,12 +360,13 @@ Footer
   justify-content: center;
 }
 
-.Global-footer div p{
+.Global-footer div p {
   color: white;
   font-family: 'Poppins', sans-serif;
 
 }
-.Global-footer div p a{
+
+.Global-footer div p a {
   color: white;
   font-family: 'Poppins', sans-serif;
 
