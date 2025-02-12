@@ -266,11 +266,12 @@ R-index.html
   background-color: white;
   height: 50vh;
   width: 100%;
+  background: linear-gradient(270deg, #004aad, #3c1e66);
+
 }
 
-#index-about {
-  background: linear-gradient(270deg, #004aad, #3c1e66);
-}
+/* #index-about {
+} */
 
 #index-about-img {
   height: 100%;
@@ -301,7 +302,6 @@ R-index.html
   padding-top: 20vh;
   height: 150vh;
   display: block;
-  background: linear-gradient(270deg, #004aad, #3c1e66);
 }
 
 #about-department #department-list ul {
@@ -329,16 +329,16 @@ R-index.html
   display: none;
 }
 
-#department-tabs-detail article h4{
+#department-tabs-detail article h4 {
   text-align: left;
   color: white;
 }
 
-#department-tabs-detail .tabs-img{
+#department-tabs-detail .tabs-img {
   height: 90%;
 }
 
-#department-tabs-detail .tabs-img img{
+#department-tabs-detail .tabs-img img {
   object-fit: contain;
   height: 100%;
   width: 100%;
@@ -346,7 +346,40 @@ R-index.html
 
 /*R-event.html ======================*/
 
+#events-list {
+  padding-top: 20vh;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.event {
+  height: 20vh;
+  margin: 5vh;
+}
+
+.event .row {
+  height: 100%;
+}
+
+.event-logo {
+  height: 100%;
+}
+
+.event-logo div {
+  border-radius: 50px;
+  height: 100%;
+}
+
+.event-logo img {
+  height: 100%;
+  border-radius: 25px;
+
+}
+
+.event-summarize-description{
+  color: white;
+}
 /*
 ==================================================================
 Footer
