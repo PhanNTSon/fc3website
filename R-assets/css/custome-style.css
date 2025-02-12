@@ -377,9 +377,26 @@ R-index.html
 
 }
 
-.event-summarize-description{
+.event-summarize-description {
   color: white;
 }
+
+/*R-join.html ======================*/
+
+#join-section {
+  padding-top: 20vh;
+  height: 80vh;
+}
+
+#join-content{
+  color: orange;
+  text-align: center;
+}
+
+#join-content p{
+  color: white;
+}
+
 /*
 ==================================================================
 Footer
