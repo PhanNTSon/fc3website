@@ -34,28 +34,13 @@
         </nav>
     </header>
 
-
     <!-- Banner -->
-    <!-- <div class="container-fluid">
-        <div class="row">
-            <div class="Index-banner">
-                <video autoplay muted loop class="col-md-12" id="Index-banner-video">
-                    <source src="assets/images/water-landscape.mp4" type="video/mp4">
-                </video>
-                <div class="col-md-12" id="Index-banner-context">
-                    <h1>HAPPY VALENTINE DAY</h1>
-                    <h2>FPTU Cloud Computing Club</h2>
-                    <h6>Start Your Cloud Journey!</h6>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Banner -->
-    <div class="container-fluid d-flex flex-column banner">
+    <div class="container-fluid d-flex flex-column position-relative banner">
         <video autoplay muted loop class="position-absolute h-100 w-100 banner-video">
-            <source src="assets/images/water-landscape.mp4" type="video/mp4">
+            <source src="assets/images/earth.mp4" type="video/mp4">
         </video>
-        <div class="position-absolute h-100 w-100 banner-text">
+        <div
+            class="position-absolute d-flex flex-column align-items-center justify-content-center h-100 w-100 banner-text">
             <h1>HAPPY VALENTINE DAY</h1>
             <h2>FPTU Cloud Computing Club</h2>
             <h6>Start Your Cloud Journey!</h6>
@@ -63,55 +48,46 @@
     </div>
 
     <!-- Section -->
-    <div class="container-fluid">
+    <section class="container-fluid index-section">
         <div class="row">
-            <!-- Section start from here -->
-            <section class="Global-section col-md-12" id="index-about">
-                <div class="col-md-6" id="index-about-img">
-                    <img src="assets/images/cloud-img-temp.png" alt="Cloud Image">
-                </div>
-                <div class="col-md-6" id="index-about-content">
-                    <h2>Start Your <em>Cloud Journey</em> at FC3!</h2>
-                    <p>Tham gia FC3 giúp bạn có cơ hội tham gia các buổi thảo luận về ứng dụng của điện toán đám
-                        mây. Ngoài ra
-                        còn giúp phát triển các kỹ năng mềm phục vụ cho công việc tương lai.</p>
-                    <a class="nav-item" href="about.html">More >>></a>
-                </div>
-            </section>
+            <div class="col-lg-6 d-flex flex-column align-items-center">
+                <img src="assets/images/cloud-img-temp.png" alt="Cloud Image" class="w-75">
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                <h2>Start Your <em>Cloud Journey</em> at FC3!</h2>
+                <p>Tham gia FC3 giúp bạn có cơ hội tham gia các buổi thảo luận về ứng dụng của điện toán đám
+                    mây. Ngoài ra
+                    còn giúp phát triển các kỹ năng mềm phục vụ cho công việc tương lai.</p>
+                <a class="nav-item" href="about.html">More >>></a>
+            </div>
         </div>
-    </div>
-
+    </section>
 
     <!-- Footer -->
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Footer start from here -->
-            <footer class="Global-footer">
-                <div class="col-md-3" id="logo">
-                    <img src="assets/images/logo.png" alt="Logo">
-                </div>
-                <div class="col-md-3" id="info-location">
-                    <p><a class="nav-item" href="https://maps.app.goo.gl/bVTK4FbdA2dDwVFY9" target="_blank">Trường Đại
-                            học FPT Hà Nội,
-                            Khu Công Nghệ Cao Hòa Lạc, KM 29 Đại lộ Thăng Long, Hà Nội</a></p>
-                </div>
-                <div class="col-md-3" id="info-facebook-gmail">
-                    <p><a class="nav-item" href="https://www.facebook.com/fc3.fpt" target="_blank">Fanpage: FPTU Cloud
-                            Computing Club
-                            - FC3</a></p>
-                    <p><a class="nav-item" href="mailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a></p>
-                </div>
-                <div class="col-md-3" id="info-headmaster-phone">
-                    <p>Chủ nhiệm: Trần Trí Dũng</p>
-                    <p>Số điện thoại: 0363894825</p>
-                </div>
-            </footer>
+    <footer class="container-fluid footer">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-3 h-100 d-flex flex-column align-items-center">
+                <img src="assets/images/logo.png" alt="Logo" class="h-100">
+            </div>
+            <div class="col-lg-3">
+                <a class="nav-item" href="https://maps.app.goo.gl/bVTK4FbdA2dDwVFY9" target="_blank">Trường Đại
+                    học FPT Hà Nội,
+                    Khu Công Nghệ Cao Hòa Lạc, KM 29 Đại lộ Thăng Long, Hà Nội</a>
+            </div>
+            <div class="col-lg-3">
+                <a class="nav-item" href="https://www.facebook.com/fc3.fpt" target="_blank">Fanpage: FPTU Cloud
+                    Computing Club
+                    - FC3</a>
+                <a class="nav-item" href="mailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a>
+            </div>
+            <div class="col-lg-3">
+                <p>Chủ nhiệm: Trần Trí Dũng</p>
+                <p>Số điện thoại: 0363894825</p>
+            </div>
         </div>
-    </div>
+    </footer>
+
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
-
 </html>
