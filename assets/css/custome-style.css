@@ -158,9 +158,6 @@ section {
   background: linear-gradient(270deg, #004aad, #3c1e66);
 }
 
-.index-section {
-  padding: 15px;
-}
 
 .index-section img {
   border-radius: 5%;
@@ -173,9 +170,6 @@ section {
   min-height: 80vh;
 }
 
-/* .about-section ul{
-  border: 0px;
-} */
 
 .about-section li {
   cursor: pointer;
@@ -188,55 +182,32 @@ section {
 
 /*event.html ======================*/
 
-#events-list {
+.events-section {
   padding-top: 20vh;
-  height: 120vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 80vh;
 }
 
 .event {
-  height: 20vh;
-  margin: 5vh;
-}
-
-.event .row {
-  height: 100%;
+  min-height: 20vh;
 }
 
 .event-logo {
-  height: 100%;
-}
-
-.event-logo div {
-  border-radius: 50px;
-  height: 100%;
+  height: 20vh;
 }
 
 .event-logo img {
-  height: 100%;
   border-radius: 25px;
-
 }
 
-.event-summarize-description {
+.event-description {
   color: white;
 }
 
 /*R-join.html ======================*/
 
-#join-section {
+.join-section {
   padding-top: 20vh;
-  height: 80vh;
-}
-
-#join-content {
-  color: orange;
-  text-align: center;
-}
-
-#join-content p {
-  color: white;
+  min-height: 80vh;
 }
 
 /*
