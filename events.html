@@ -13,27 +13,26 @@
 
 <body>
     <!-- Header -->
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Header start from here -->
-            <header class="Global-header">
-                <div class="col-md-3" id="logo">
-                    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="FC3 Logo"></a>
-                </div>
-                <div class="col-md-9" id="nav">
-                    <nav>
-                        <ul>
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="events.html">Events</a></li>
-                            <li><a href="join.html">Join</a></li>
-                        </ul>
-                    </nav>
+    <header>
+        <!-- Navigator -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid h-100">
+                <!-- Logo -->
+                <a class="navbar-brand col-lg-4 h-100 d-flex justify-content-center" href="index.html">
+                    <img src="assets/images/logo.png" alt="FC3 Logo" class="h-100">
+                </a>
 
-                </div>
-            </header>
-        </div>
-    </div>
+                <!-- Nav items -->
+                <ul class="navbar-nav col-lg-8 justify-content-around">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="join.html">Join</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
 
     <!-- Section -->
     <div class="container-fluid">
@@ -80,31 +79,31 @@
     </div>
 
     <!-- Footer -->
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Footer start from here -->
-            <footer class="Global-footer">
-                <div class="col-md-3" id="logo">
-                    <img src="assets/images/logo.png" alt="Logo">
-                </div>
-                <div class="col-md-3" id="info-location">
-                    <p><a data-target="ttps://maps.app.goo.gl/bVTK4FbdA2dDwVFY9" target="_blank">Trường Đại học FPT Hà
-                            Nội,
-                            Khu Công Nghệ Cao Hòa Lạc, KM 29 Đại lộ Thăng Long, Hà Nội</a></p>
-                </div>
-                <div class="col-md-3" id="info-facebook-gmail">
-                    <p><a data-target="ttps://www.facebook.com/fc3.fpt" target="_blank">Fanpage: FPTU Cloud Computing
-                            Club
-                            - FC3</a></p>
-                    <p><a data-target="ailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a></p>
-                </div>
-                <div class="col-md-3" id="info-headmaster-phone">
-                    <p>Chủ nhiệm: Trần Trí Dũng</p>
-                    <p>Số điện thoại: 0363894825</p>
-                </div>
-            </footer>
+    <footer class="container-fluid footer">
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-3 h-100 d-flex flex-column align-items-center">
+                <img src="assets/images/logo.png" alt="Logo" class="h-100">
+            </div>
+            <div class="col-lg-3">
+                <a class="nav-item" href="https://maps.app.goo.gl/bVTK4FbdA2dDwVFY9" target="_blank">Trường Đại
+                    học FPT Hà Nội,
+                    Khu Công Nghệ Cao Hòa Lạc, KM 29 Đại lộ Thăng Long, Hà Nội</a>
+            </div>
+            <div class="col-lg-3">
+                <a class="nav-item" href="https://www.facebook.com/fc3.fpt" target="_blank">Fanpage: FPTU Cloud
+                    Computing Club
+                    - FC3</a>
+                <a class="nav-item" href="mailto:fc3.fpt@gmail.com">fc3.fpt@gmail.com</a>
+            </div>
+            <div class="col-lg-3">
+                <p>Chủ nhiệm: Trần Trí Dũng</p>
+                <p>Số điện thoại: 0363894825</p>
+            </div>
         </div>
-    </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -66,15 +66,6 @@ figcaption {
   outline: 0;
 }
 
-.tabs-content #tabs-0 h4,
-#tabs-1 h4,
-#tabs-2 h4,
-#tabs-3 h4,
-#tabs-4 h4,
-#tabs-5 h4 {
-  color: #ddd;
-}
-
 html {
   overflow-x: hidden;
 }
@@ -85,7 +76,6 @@ li {
   margin: 0;
   list-style: none;
 }
-
 
 * {
   box-sizing: border-box;
@@ -161,66 +151,42 @@ Banner
 ==================================================================
 Section
 =====================
-R-index.html
+index.html
 */
-.index-section {
-  padding: 15px;
+
+section {
   background: linear-gradient(270deg, #004aad, #3c1e66);
 }
 
-.index-section img{
+.index-section {
+  padding: 15px;
+}
+
+.index-section img {
   border-radius: 5%;
 }
 
 /*about.html ======================*/
 
-#about-department {
+.about-section {
   padding-top: 20vh;
-  height: 150vh;
-  display: block;
+  min-height: 80vh;
 }
 
-#about-department #department-list ul {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
+/* .about-section ul{
+  border: 0px;
+} */
 
-#about-department #department-list ul li {
-  padding: 10px;
-  background-color: white;
-  border-radius: 15px;
-  width: 25vh;
-  text-align: center;
+.about-section li {
   cursor: pointer;
 }
 
-#department-tabs-detail article {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 80vh;
-  padding: 5vh;
-  display: none;
+.tabs-img img {
+  height: 50vh;
 }
 
-#department-tabs-detail article h4 {
-  text-align: left;
-  color: white;
-}
 
-#department-tabs-detail .tabs-img {
-  height: 90%;
-}
-
-#department-tabs-detail .tabs-img img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-}
-
-/*R-event.html ======================*/
+/*event.html ======================*/
 
 #events-list {
   padding-top: 20vh;
@@ -282,6 +248,7 @@ Footer
   background: linear-gradient(to top, #004aad, #9463d6);
 }
 
-.footer a, .footer p{
+.footer a,
+.footer p {
   color: white;
 }
